@@ -37,9 +37,9 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :ex_admin_demo, ExAdminDemo.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  adapter: Ecto.Adapters.MySQL,
+  username: "root",
+  password: "",
   database: "ex_admin_demo_dev",
   hostname: "localhost",
   pool_size: 10

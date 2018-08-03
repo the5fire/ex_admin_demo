@@ -34,6 +34,7 @@ defmodule ExAdminDemo.Mixfile do
     [{:phoenix, "~> 1.1"},
      {:phoenix_ecto, "~> 3.0"},
      {:postgrex, ">= 0.0.0"},
+     {:mariaex, "~> 0.1"},
      {:ecto, "~> 2.0", override: true},
      {:phoenix_html, "~> 2.3"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
@@ -47,6 +48,7 @@ defmodule ExAdminDemo.Mixfile do
      {:httpoison, "~> 0.7"},  # Required if using Amazon S3
      {:faker, "~> 0.6.0"},
      {:number, "~> 0.4.1"},
+     {:plug, "~> 1.3"},
      {:cowboy, "~> 1.0"}]
   end
 
